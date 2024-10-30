@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Social links profile</title>
+  </head>
+  <body>
+    <!-- Main content -->
+    <main>
+      <div class="profileCard">
+        <div class="profileCard__content">
+          <img
+            class="profileCard__content__avatarImage"
+            src="./assets/images/avatar-jessica.jpeg"
+            alt="Avatar"
+          />
+          <div class="profileCard__content__avatarName font-Bold">
+            Jessica Randall
+          </div>
+          <div class="profileCard__content__location">
+            London, United Kingdom
+          </div>
+          <div class="profileCard__content__stats">
+            "Front-end developer and avid reader."
+          </div>
+        </div>
+        <div class="profileCard__buttonGroup">
+          <a class="profileCard__buttonGroup__button" href=""> GitHub</a>
+          <a class="profileCard__buttonGroup__button" href=""> Frontend</a>
+          <a class="profileCard__buttonGroup__button" href=""> Mentor</a>
+          <a class="profileCard__buttonGroup__button" href=""> LinkedIn</a>
+          <a class="profileCard__buttonGroup__button" href=""> Twitter</a>
+          <a class="profileCard__buttonGroup__button" href=""> Instagram</a>
+        </div>
+      </div>
+    </main>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- Footer -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Zero One</a>.
+      </div>
+    </footer>
+  </body>
 </html>
