@@ -102,7 +102,7 @@ footer {
   color: hsl(0, 0%, 100%);
   transition: background-color 0.5s ease, color 0.5s ease;
 }
-.profileCard__buttonGroup__button:hover {
+.profileCard__buttonGroup__button:hover, .profileCard__buttonGroup__button:active {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
 }
